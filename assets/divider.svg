@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="34" viewBox="0 0 1000 34">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<line x1="0" y1="17" x2="1000" y2="17" stroke="#164e63"/>
+<line x1="0" y1="17" x2="160" y2="17" stroke="url(#g)" stroke-width="3" stroke-dasharray="35 25">
+<animate attributeName="stroke-dashoffset" from="0" to="-60" dur="1.2s" repeatCount="indefinite"/>
+</line>
+<circle cx="500" cy="17" r="5" fill="#22d3ee"><animate attributeName="r" values="3;9;3" dur="1.5s" repeatCount="indefinite"/></circle>
+</svg>
